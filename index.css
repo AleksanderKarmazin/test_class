@@ -1,0 +1,205 @@
+/*  ===========================
+    Colors
+    ===========================
+*/
+:root {
+    --default: #e0494e;
+    --default2: #e61616;
+    --blue: #2d84fb;
+    --blue2: #2706df;
+    --lightGreen: #67c56e;
+    --lightGreen2: #08aa12;
+    --yellow: #f89d36;
+    --yellow2: #db7807;
+    --purple: #662e9b;
+    --purple2: #4c0094;
+    --black1: #212529;
+    --black2: #3c4858;
+    --grey: #8492a6;
+    /* --backgroundColor: #f9fafd; */
+    --backgroundColor: #eaedf2;
+    --white: #fff;
+  }
+  
+  /* ====================
+      Reset
+     ====================
+  */
+  
+  *,
+  *::after,
+  *::before {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body,
+  input,
+  textarea {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: var(--black1);
+    background-color: var(--white);
+    line-height: 1.6;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+/*  ===========================
+    Header
+    ===========================
+*/
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    height: 100%;
+}
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+  }
+
+  .contentContainer {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+  }
+
+
+.mainMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 70%;
+}
+
+.menuList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+/*  ===========================
+    Main content
+    ===========================
+*/
+
+.headlaineStory{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px;
+  font-weight: bolder;
+  color: #48555B;
+}
+.headlaineStory:hover{
+  text-decoration:underline;
+}
+.TextHeadline{
+  font-weight: bolder;
+  font-size: 40px;
+}
+.storyText{
+  max-width: 800px;
+}
+.storyPhoto img{
+  max-height: 325px;
+  margin: 20px;
+}
+
+.storyContent{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.capHeadline{
+  font-weight: bolder;
+  color: #48555B;
+}
+.capHeadline:hover{
+  text-decoration:underline;
+}
+
+.capHeadBlock{
+  margin-bottom: 150px;
+}
+
+.capText{
+  max-width: 600px;
+}
+
+.card{
+  border: 4px solid #E6E6E6;
+  margin: 0 28px 70px 28px;
+
+}
+.card img{
+  margin: 30px;
+  max-width: 150px;
+}
+
+.card div{
+  margin: 30px;
+}
+.cardHeadline{
+  font-weight: bolder;
+  color:  #48555B;
+  ;
+}
+
+/*  ===========================
+    Footer
+    ===========================
+*/
+.emailSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.company{
+  max-width: 500px;
+}
+
+.contact{
+  max-width: 300px;
+}
+
+.logoFooter{
+  font-size: 4rem;
+}
+
+.copirightSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
