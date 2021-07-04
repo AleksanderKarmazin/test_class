@@ -11,12 +11,24 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
       <div class="banner container">
         <img src="./img/main_banner.jpg" alt="" />
+        <div class="top-centered">KONSTRUCT</div>
+        <div class="centered">PARTNER WITH KONSTUCT</div>
+        <div class="centered-smale">
+          An award-winning construction management firm
+        </div>
+        <div class="bottom-centered">SCROLL DOWN</div>
       </div>
       <!-- Navbar  -->
       <div class="navbar">
@@ -63,9 +75,18 @@
             </div>
           </div>
           <div class="storyPhoto flex">
+            <div class="storyPhotoImg">
             <img src="./img/story_img_1.jpg" alt="" />
-            <img src="./img/story_img_2.jpg" alt="" />
-            <img src="./img/story_img_3.jpg" alt="" />
+            <div class="storyPhotoText">WE PLAN</div>
+            </div>
+            <div class="storyPhotoImg">
+            <img src="./img/story_img_1.jpg"  alt="" />
+            <div class="storyPhotoText">WE MANAGE</div>
+            </div>
+            <div class="storyPhotoImg">
+            <img src="./img/story_img_1.jpg" alt="" />
+            <div class="storyPhotoText">WE BUILD</div>
+            </div>
           </div>
         </div>
       </section>
@@ -77,7 +98,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nihil
             odit, sed ratione esse rem!
           </div>
-          <button class="capBtn btn">ALL SERVICES</button>
+          <button class="capBtn btn" type="submit">ALL SERVICES</button>
         </div>
         <div class="capCards flex">
           <div class="card">
@@ -114,12 +135,22 @@
       </section>
       <!-- Low Baner section  -->
     </main>
-    <section class="lowBanner container">
+    <section class="lowBanner">
       <img src="./img/footer_banner.jpg" alt="" />
+      <div class="lowBannerContent">
+        <div class="lowBannerHeadline">Want to build something amazing?</div>
+        <button type="submit">GET IN TOUCH</button>
+      </div>
     </section>
-    <footer class="footer contentContainer">
-      <div class="emailSection">Newsletter Signup</div>
-      <div class="mainFooterSection flex">
+    <footer class="footer">
+      <div class="emailSection">
+        <div class="emailSectionHeadline">Newsletter Signup</div>
+        <div class="emailSectionForm">
+          <input type="email" name="" id="" placeholder="test@youremail.com" />
+          <button type="submit">SIGNUP</button>
+        </div>
+      </div>
+      <div class="mainFooterSection flex contentContainer">
         <div class="company">
           <h4>COMPANY</h4>
           <div class="logoFooter">KONSTRUCT</div>

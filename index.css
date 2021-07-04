@@ -69,30 +69,78 @@
   img {
     max-width: 100%;
   }
-  
-/*  ===========================
-    Header
-    ===========================
-*/
 
-  .flex {
+  button{
+    padding: 11px 48px 10px 48px;
+    min-height: 65px;
+    min-width: 250px;
+    background-color:#00A4E5;
+    font-size: 22px;
+    color: #fff;
+   }
+  
+.flex {
     display: flex;
     justify-content: space-between;
     align-items:center ;
     height: 100%;
 }
 
-  .container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 1.6rem;
-  }
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
 
-  .contentContainer {
-    max-width: 70%;
-    margin: 0 auto;
-    padding: 0 1.6rem;
-  }
+.contentContainer {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+
+/*  ===========================
+    Header
+    ===========================
+*/
+
+.banner{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-family: 'Bebas Neue', cursive;
+  font-size: 170px;
+}
+.centered-smale{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-centered{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.bottom-centered{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 .mainMenu{
@@ -133,9 +181,28 @@
   max-width: 800px;
 }
 .storyPhoto img{
-  max-height: 325px;
+  max-height: 525px;
   margin: 20px;
 }
+
+.storyPhotoImg{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.storyPhotoText{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-weight: 800;
+  font-size: 60px;
+  text-align: left;
+  max-width: 60px;
+}
+
+
 
 .storyContent{
   margin-top: 50px;
@@ -177,15 +244,87 @@
   ;
 }
 
+
+.lowBanner img {
+  width: 100%;
+}
+
+
+/* Container holding the image and the text */
+.lowBanner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.lowBannerContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lowBannerHeadline{
+  font-size: 90px;
+  font-weight: bold;
+  max-width: 900px;
+  margin-bottom: 100px;
+}
+
 /*  ===========================
     Footer
     ===========================
 */
+
+
+.footer{
+  background-color:#141A20;
+  color: #fff;
+}
+
+.footer a{
+  color: #fff;
+  margin-right: 10px;
+}
+
+
 .emailSection{
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  background-color: #171819;
+  min-height: 200px;
 }
+
+.emailSectionHeadline{
+  margin-right: 150px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.emailSectionForm input{
+ padding: 11px 98px 10px 16px;
+ min-width: 250px;
+}
+
+.emailSectionForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+
+ }
+ 
+
+.emailSectionForm button{
+  padding: 11px 48px 10px 48px;
+  min-height: 65px;
+  min-width: 250px;
+  background-color:#00A4E5;
+  font-size: 22px;
+ }
+
 .company{
   max-width: 500px;
 }
@@ -202,4 +341,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  min-height: 100px;
+  justify-content: center;
+  background-color:#171819;
 }
